@@ -1,7 +1,7 @@
 # Hard Hat NFTs
 
 
-## 1. Basic NFT
+## 1. Basic NFT ✅
 
 ## 2. Random IPFS hosted NFT
 
