@@ -19,7 +19,6 @@ module.exports = {
   networks: {
     hardhat: {
       chainId: 31337,
-      // gasPrice: 130000000000,
     },
     rinkeby: {
       url: RINKEBY_RPC_URL,
@@ -28,6 +27,7 @@ module.exports = {
       blockConfirmations: 6,
     },
   },
+  
   solidity: {
     compilers: [
       {
@@ -38,9 +38,11 @@ module.exports = {
       },
     ],
   },
+
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
   },
+
   gasReporter: {
     enabled: true,
     currency: "USD",
